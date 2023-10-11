@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ASUS/juaracoding/sqabatch11/OrangeHRM/src/test/java/com/juaracoding/TestLogin.java">
+        <classes>
+            <class name="com.juaracoding.TestLogin">
+                <methods>
+                    <include name="testValidLogin"/>
+                    <include name="testInvalidLogin"/>
+                    <include name="testBlankUser"/>
+                    <include name="testBlankPass"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ASUS/juaracoding/sqabatch11/OrangeHRM/src/test/java/com/juaracoding/RecruitmentTest.java">
+        <classes>
+            <class name="com.juaracoding.RecruitmentTest">
+                <methods>
+                    <include name="testAddVacancies"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
